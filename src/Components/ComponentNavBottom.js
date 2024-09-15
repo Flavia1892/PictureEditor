@@ -98,7 +98,7 @@ function ComponentNavBottom() {
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="aboutus" className="text-reset">
                     About me
                   </a>
                 </p>

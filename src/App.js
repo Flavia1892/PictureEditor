@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import HomePage from "./Pages/HomePage";
 import Layout from "./Pages/Layout";
 import NotFound from "./Pages/NotFound";
+import AboutUs from "./Pages/AboutUs";
 
 import {
   Route,
@@ -17,10 +17,15 @@ const router = createBrowserRouter(
       <Route index element={<HomePage />} />
       <Route path="homepage" element={<HomePage />} />
       <Route path="*" element={<NotFound />} />
+      <Route path="aboutus" element={<AboutUs />} />
     </Route>
   )
 );
 
 export default function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <div>
+      <RouterProvider router={router} />
+    </div>
+  );
 }
