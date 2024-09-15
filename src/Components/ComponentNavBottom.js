@@ -16,7 +16,7 @@ function ComponentNavBottom() {
       >
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           <div className="me-5 d-none d-lg-block">
-            <span>Get connected with us on social networks:</span>
+           
           </div>
 
           <div>
@@ -50,39 +50,42 @@ function ComponentNavBottom() {
                   Company name
                 </h6>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                 Cat momma's Website
                 </p>
               </MDBCol>
 
               <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Products</h6>
                 <p>
-                  <a href="https://pet-sitting-site-react.vercel.app/homepage" className="text-reset">
-                   Pet Sitter's Site
+                  <a
+                    href="https://pet-sitting-site-react.vercel.app/homepage"
+                    className="text-reset"
+                  >
+                    Pet Sitter's Site
                   </a>
                 </p>
                 <p>
-                  <a href="https://weather-app-jade-tau.vercel.app/" className="text-reset">
+                  <a
+                    href="https://weather-app-jade-tau.vercel.app/"
+                    className="text-reset"
+                  >
                     Weather App
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
-                    Vue
+                  <a
+                    href="https://cooking-site-blond.vercel.app/"
+                    className="text-reset"
+                  >
+                    Cooking Site
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
-                    Laravel
+                  <a
+                    href="https://dictionary-app-six-pi.vercel.app/"
+                    className="text-reset"
+                  >
+                    Dictionary Site
                   </a>
                 </p>
               </MDBCol>
@@ -91,19 +94,15 @@ function ComponentNavBottom() {
                 <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
                 <p>
                   <a href="#!" className="text-reset">
-                    Pricing
+                    FAQ
                   </a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">
-                    Settings
+                    About me
                   </a>
                 </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Orders
-                  </a>
-                </p>
+
                 <p>
                   <a href="#!" className="text-reset">
                     Help
@@ -115,17 +114,17 @@ function ComponentNavBottom() {
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                 <p>
                   <MDBIcon icon="home" className="me-2" />
-                  New York, NY 10012, US
+                  Brasov, Romania
                 </p>
                 <p>
                   <MDBIcon icon="envelope" className="me-3" />
-                  info@example.com
+                  catmommy@yahoo.com
                 </p>
                 <p>
-                  <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                  <MDBIcon icon="phone" className="me-3" /> + 0368 456 ***
                 </p>
                 <p>
-                  <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                  <MDBIcon icon="print" className="me-3" /> 0733 235 ***
                 </p>
               </MDBCol>
             </MDBRow>
