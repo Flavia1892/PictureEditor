@@ -9,7 +9,7 @@ import {
 
 function ComponentNavBottom() {
   return (
-    <>
+    <div>
       <MDBFooter
         bgColor="light"
         className="text-center text-lg-start text-muted"
@@ -141,7 +141,7 @@ function ComponentNavBottom() {
           </a>
         </div>
       </MDBFooter>
-    </>
+    </div>
   );
 }
 
