@@ -8,7 +8,7 @@ import { NavbarBrand } from "react-bootstrap";
 
 function ComponentNavTop() {
   return (
-    <div id="navBar">
+    <div className="navBar">
       {["sm"].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3 " >
           <Container fluid>

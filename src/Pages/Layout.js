@@ -24,11 +24,10 @@ function Layout() {
               transition: "opacity 1s ease-in-out",
               opacity: state === "entered" ? 1 : 0,
             }}
-          >
-            <ComponentNavTop />
-          </div>
+          ></div>
         )}
       </Transition>
+      <ComponentNavTop />
 
       <Outlet />
 

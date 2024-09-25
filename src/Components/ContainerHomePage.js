@@ -59,10 +59,11 @@ function ContainerHomePage() {
 
   const handleAcceptCookies = () => {
     Cookies.set("cookieConsent", true);
+    Cookies.set("theme", theme);
   };
 
   const handleRejectCookies = () => {
-    Cookies.remove("cookieConsent", "firstname", "lastname");
+    Cookies.remove("cookieConsent","theme");
   };
 
   const handleClose = () => {
